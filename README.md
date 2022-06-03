@@ -10,7 +10,7 @@ using an open source semantic segmentation model [DeepLabv3Plus-ResNet101](https
 The Faster R-CNN model is trained as follows: 
 #### a) Randomly initialize and then use VOC for fine tune
 #### b) Use backbone network pretrained on ImageNet, and then use VOC for fine tune
-#### c) Use Mask R-CNN backbone network parameters trained on Coco to initialize Faster R-CNN backbone network, and then use VOC for fine tune;
+#### c) Use Mask R-CNN backbone network parameters trained on Coco to initialize Faster R-CNN backbone network, and then use VOC for fine tune
 
 ## Reference
 https://github.com/VainF/DeepLabV3Plus-Pytorch
