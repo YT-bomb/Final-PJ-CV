@@ -4,7 +4,7 @@
 
 This is a repo for final project of DATA130051 Computer Vision
 ### Task 1
-using an open source semantic segmentation model [DeepLabv3Plus-ResNet101](https://github.com/VainF/DeepLabV3Plus-Pytorch) trained on the Cityscapes dataset to perform semantic segmentation and visualize each frame of the video
+Using an open source semantic segmentation model [DeepLabv3Plus-ResNet101](https://github.com/VainF/DeepLabV3Plus-Pytorch) trained on the Cityscapes dataset to perform semantic segmentation and visualize each frame of the video
 
 ### Task 2
 The Faster R-CNN model is trained as follows: 
