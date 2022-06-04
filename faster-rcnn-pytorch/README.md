@@ -3,7 +3,7 @@
 ### 在原有仓库的代码基础上的修改：
 train.py中添加trainsets参数以便可选择在使用coco上训练的Mask R-CNN的backbone初始化策略。
 
-nets/resnet50.py 中，添加代码当trainsets为“coco”时，加载pytorch官网提供的coco上训练的mask R-CNN的模型权重作为backbone的初始化权重。
+nets/resnet50.py 中，添加代码当trainsets为“coco”时，加载pytorch官网提供的coco上训练的mask R-CNN的模型权重作为backbone的初始化权重。三种训练策略的结果以及模型权重可从[百度云盘](https://pan.baidu.com/s/1PCDyGuOZ8q3rKWN48CmVzQ?pwd=ii9y)下载
 
 以下的训练步骤来自[GitHub仓库](https://github.com/bubbliiiing/faster-rcnn-pytorch)
 
