@@ -1,6 +1,11 @@
 ## Faster-Rcnn：Two-Stage目标检测模型在Pytorch当中的实现
 ---
-以下的训练步骤来着[GitHub仓库]
+### 在原有仓库的代码基础上的修改：
+train.py中添加trainsets参数以便可选择在使用coco上训练的Mask R-CNN的backbone初始化策略。
+
+nets/resnet50.py 中，添加代码当trainsets为“coco”时，加载pytorch官网提供的coco上训练的mask R-CNN的模型权重作为backbone的初始化权重。
+
+以下的训练步骤来自[GitHub仓库](https://github.com/bubbliiiing/faster-rcnn-pytorch)
 
 ## 目录
 1. [仓库更新 Top News](#仓库更新)
