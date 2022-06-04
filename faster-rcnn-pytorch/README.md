@@ -1,5 +1,6 @@
 ## Faster-Rcnn：Two-Stage目标检测模型在Pytorch当中的实现
 ---
+以下的训练步骤来着[GitHub仓库]
 
 ## 目录
 1. [仓库更新 Top News](#仓库更新)
